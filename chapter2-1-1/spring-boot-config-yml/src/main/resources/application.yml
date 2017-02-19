@@ -1,0 +1,4 @@
+project
+    name:spring boot config
+    target:config test project
+    desc:${name} ${desc}
