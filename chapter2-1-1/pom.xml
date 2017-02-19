@@ -13,7 +13,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>springbootconfig</module>
+        <module>spring-boot-config-properties</module>
         <module>spring-boot-config-yml</module>
     </modules>
 
