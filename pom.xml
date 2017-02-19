@@ -12,6 +12,7 @@
         <module>spring-boot-helloworld</module>
         <module>chapter2-1-1</module>
         <module>chapter3-1-1</module>
+        <module>chapter3-2-1</module>
     </modules>
 
     <parent>
