@@ -7,14 +7,11 @@ import org.springframework.stereotype.Component;
  * Created by wuqf on 17-2-19.
  */
 @Component
-@ConfigurationProperties(prefix="project")
+@ConfigurationProperties(prefix = "foo")
 public class ProjectProperties {
 
-//    @Value("${project.name}")
     private String name;
-//    @Value("${project.target}")
     private String target;
-//    @Value("${project.desc}")
     private String desc;
 
     public String getName() {
