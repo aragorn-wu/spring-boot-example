@@ -1,5 +1,5 @@
 foo:
     name: spring boot config
     target: config test project
-    desc: desc thread
+    desc: ${foo.name}'s config
 
