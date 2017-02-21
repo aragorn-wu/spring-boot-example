@@ -39,6 +39,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public List<User> getUser(String name) {
-        return null;
+       List user= jdbcTemplate.queryForList("SELECT  * from user WHERE name=?",name);
+        return user;
     }
 }
