@@ -27,4 +27,4 @@ public class UserController {
     List<User> getUsers(@PathVariable String name) {
         return userService.getUser(name);
     }
-}
+    }
