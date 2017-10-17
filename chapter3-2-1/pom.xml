@@ -14,5 +14,6 @@
 
     <modules>
         <module>spring-boot-jdbc</module>
+        <module>spring-boot-mybatis</module>
     </modules>
 </project>
